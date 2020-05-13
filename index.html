@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Título y Descripción de la Página x cada página del sitio web-->
+        <meta title="2do Parcial">
+        <title>2do Parcial</title>
+        <meta name="description" content="Descripción"/>
+        
+        <!--Codificación de Caracteres-->
+        <meta charset="utf-8">
+        
+        <!--Meta del Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--Normalize, Modernizr y Prefix Free desde CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        
+        <!--Llamado a Font Awesome Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <!--Llamado a Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500&display=swap" rel="stylesheet">
+        
+        <!--Llamado a CSS propio-->
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="fuentes/stylesheet.css">
+        
+        <!--Carga de Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/icono.png">
+        <link rel="icon" type="image/gif" href="img/icono.png">
+        <link rel="shortcut icon" href="img/icono.png">
+    </head>
+    
+    <body>
+		<aside id="menu-cortina">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+            
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+            
+            <nav id="menu-moviles">
+                <a href="#banner-foto">Inicio</a>
+                <a href="#fila-4-columnas">Reinas Carnaval de Barranquilla</a>
+                <a href="#fila-2-fotos">Misses XXI</a>
+                <a href="fila-frase-larga">Información</a>
+            </nav>
+        </aside>
+		
+        <aside id="wpp">
+            <a href="https://api.whatsapp.com/send?phone=573112512923" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+        
+        <header>
+            <article>
+                <!-- LOGO -->
+                <a href="#" id="logo">
+                    <img src="img/1%20foto%20super%20kul.jpg">
+                </a>
+                
+                <!--MENÚ-->
+                <nav id="menu-principal">
+                    <a href="#banner-foto">Inicio</a>
+                	<a href="#fila-4-columnas">Reinas Carnaval de Barranquilla</a>
+                	<a href="#fila-2-fotos">Misses XXI</a>
+                	<a href="#fila-frase-larga">Información</a>
+                </nav>
+            </article>
+        </header>
+        
+        <main>
+            <section id="banner-foto">
+                <!--
+                Nota: La imagen de fondo se carga desde el CSS
+                -->
+            
+            </section>
+			
+			<section id="fila-4-columnas">
+				<article>
+					<figure>
+						<img src="img/circulo%201.jpg">
+						<h4>Reina 2010: Giselle Lacouture Paccini</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/circulo2.jpg">
+						<h4>Reina 2005: Kathy Flesh Guinovart</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/circulo3.jpg">
+						<h4>Reina 2019: Carolina Segebre Abudinem</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/CIRCULO4.jpg">
+						<h4>Reina 2016: Marcela García Caballero</h4>
+					</figure>
+				</article>
+			</section>
+            
+            <section id="fila-2-fotos">
+				<article id="foto-izquierda"></article>
+				<article id="foto-derecha"></article>
+			</section>
+            
+            <section id="fila-frase-larga">
+				<article>
+					<p> El diseñador colombiano Alfredo Barraza, nació en Barranquilla, estudió en la Universidad Autónoma del Caribe, de donde se graduó como delineante de arquitectura, pero sus trazo se hicieron famosos con los vestidos y las reinas que hicieron de este autodidacta de la confección uno de los más creativos e importantes diseñadores del mundo.</p>
+				</article>
+			</section>
+            
+            <section id="fila-3-fotos">
+                <article id="img-izquierda"> </article>
+                <article id="img-centro"> </article>
+                <article id="img-derecha"> </article>
+            </section>
+            
+        </main>
+		
+		<footer>
+			<article>
+                <nav> 
+				<a href="https://www.facebook.com/alfredo.barraza.167" target="_blank" id="Facebook">
+                                   <!--Ícono de facebook tomado desde Font Awesome Icons-->
+                <i class="fab fa-facebook-f"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/alfredobarrazatrujillo/?igshid=jx79kcc32vfp" target="_blank" id="instagram">
+                                   <!--Ícono de instagram tomado desde Font Awesome Icons-->
+               <i class="fab fa-instagram"></i>
+                </a>
+                            
+                <a href="#" id="logo-footer">
+                    <img src="img/1%20foto%20super%20kul.jpg">
+                </a>
+                </nav>
+			</article>
+		</footer>
+        
+        
+        <!--Llamados a JavaScript-->
+        <!--Llamado a jQuery y a jQuery Easing desde un CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <!--Configuración de Menú Interno y Menú Cortina-->
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
